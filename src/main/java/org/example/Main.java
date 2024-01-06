@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext appContext = new AnnotationConfigApplicationContext(AppConfig.class);
         Student student1 = appContext.getBean(Student.class);
+//        Student student1 = (Student) appContext.getBean("BTechStudent");
         System.out.println(student1.getCurrentStatus());
 //        Student student2 = appContext.getBean(BTechStudent.class);
 //        System.out.println(student2.getCurrentStatus());
