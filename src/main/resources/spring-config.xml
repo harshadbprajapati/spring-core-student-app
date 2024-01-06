@@ -4,7 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="btechStudentBean" class="org.example.beans.BTechStudent"/>
+    <bean id="btechStudentBean" name ="bTechStudent" class="org.example.beans.BTechStudent"/>
+<!--    <bean name="btechStudentBean, bTechStudent" class="org.example.beans.BTechStudent"/>-->
 <!--    <bean id="btechStudentBean" class="org.example.beans.BTechStudent" scope="prototype"/>-->
 <!--    <bean id="btechStudentBean" class="org.example.beans.BTechStudent" scope="singleton"/>-->
 
