@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
-@Lazy
+//@Lazy
 public class BTechSemester implements Semester{
     public BTechSemester() {
         System.out.println("Constructor BTechSemester() called");
