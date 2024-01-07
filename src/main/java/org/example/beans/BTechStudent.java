@@ -15,7 +15,7 @@ public class BTechStudent implements Student{
     }
 
     @Autowired
-    void setStudentSemester(@Qualifier("BTechSemester") Semester studentSemester){
+    void setStudentSemester(@Qualifier("expressBTechSemester") Semester studentSemester){
         System.out.println("setStudentSemester() called");
         this.studentSemester = studentSemester;
     }
